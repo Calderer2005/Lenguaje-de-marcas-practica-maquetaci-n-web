@@ -151,25 +151,50 @@ footer{
     color: whitesmoke;
     font-size: xx-large;
 }
-#contact>h2{
+#contact>div>h2{
     color: rgb(123, 200, 245);
+    font-size:medium;
+    display: flex;
+    justify-content: start;
+    margin: 3% 0 2% 0;
+}
+#contact>div>h3{
+    font-size: xx-large;
+    border-block-end: 1px solid rgba(128, 128, 128, 0.67);
+    width: 21%;
 }
 #contact{
     width: 90%;
     margin: auto;
-    display: flex;
-    flex-flow: column wrap;
 }
-form{
-    display: flex;
-    flex-flow: wrap column;
+#contact>div{
+    background-color: white;
+    padding: 2%%;
+    border: 1px solid rgba(128, 128, 128, 0.67) ;
+    width: 60%;
+}
+main form{
     margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap column;
 }
-form>input{
-    width: 50%;
+main input{
+    margin: 2px;
+    padding: 1%;
     border: 0;
 }
-form>input[type=submit]{
+main form  input[type=text]{
+    width: 30%;
+}
+main form  input[type=tel]{
+    width: 30%;
+}
+main form  input[type=textarea]{
+    width: 50%;
+    padding-bottom: 3%;
+}
+main form input[type=submit]{
     width: 10%;
     
 }
