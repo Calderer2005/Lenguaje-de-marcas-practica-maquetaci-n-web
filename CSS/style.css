@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header y footer */
+#stick{
+    position: sticky;
+    top: 1rem;
+}
+#header1{
+    padding: 10px 0;
+    background-color: rgba(23, 181, 230, 255);
+    color: white;
+}
+#header1>ul>div{
+    display: flex;
+    flex-flow: row wrap;
+}    
+#header1>ul{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#info{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#info>li{
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+}
+#header_RRSS{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.RRSS{
+    width: 25px;
+}
+img{
+    max-width: 100%;
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-block-end: 1px solid black;
+    opacity:90%;
+}
+#logo{
+    width: 20%;
+}
+nav ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul a{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+}
+footer{
+    margin-top: 5%;
+    background-color: rgba(28, 28, 28, 0.908);
+}
+#f_sct_1{
+    padding: 2% 0 2% 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+
+}
+#f_sct_1>div{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+}
+#f_sct_1>div>ul>li>a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#f_sct_1>div>ul>li{
+    width: 100%;
+}
+#f_sct_1>div>h2{
+    font-size: x-large;
+    margin-bottom: 5%;
+    border-block-end: 1px solid rgba(128, 128, 128, 0.67);
+}
+#f_sct_1_ct>ul{
+    list-style: none;
+}
+#f_sct_1_ct>a{
+    text-decoration: none;
+    color: white;
+    background-color:rgba(23, 181, 230, 255);
+    padding: 2%;
+    margin: 1%;
+}
+#f_sct_1_img>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+#f_sct_2{
+    background-color: rgba(16, 15, 15, 0.622);
+    
+}
+#f_sct_2>div{
+    width: 90%;
+    margin: auto;
+    padding: 1% 0  1% 0;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(161, 155, 155);
+    align-items: center;
+}
+#f_sct_3{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#f_sct_3>img{
+    width: 50%;
+}
+/* contacto */
+#fondo-contacto{
+    background-image: url(./../IMAGENES/constru.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap column;
+    color: whitesmoke;
+    font-size: xx-large;
+}
+#contact>h2{
+    color: rgb(123, 200, 245);
+}
+#contact{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+form{
+    display: flex;
+    flex-flow: wrap column;
+    margin: 10px 0;
+}
+form>input{
+    width: 50%;
+    border: 0;
+}
+form>input[type=submit]{
+    width: 10%;
+    
+}
+/* servicios */
+/* nosotros */
+/* proyectos */
+/* Inicio */
