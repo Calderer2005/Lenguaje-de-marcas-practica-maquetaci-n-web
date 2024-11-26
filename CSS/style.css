@@ -70,7 +70,6 @@ nav ul a{
     text-decoration: none;
 }
 footer{
-    margin-top: 5%;
     background-color: rgba(28, 28, 28, 0.908);
 }
 #f_sct_1{
@@ -151,27 +150,31 @@ footer{
     color: whitesmoke;
     font-size: xx-large;
 }
-#contact>div>h2{
+#contact>h2{
     color: rgb(123, 200, 245);
     font-size:medium;
     display: flex;
     justify-content: start;
-    margin: 3% 0 2% 0;
+    margin: 2% 0 2% 0;
 }
-#contact>div>h3{
+#contact>h3{
     font-size: xx-large;
     border-block-end: 1px solid rgba(128, 128, 128, 0.67);
-    width: 21%;
+
+}
+#fon_cont_2{
+    background-image: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #contact{
-    width: 90%;
-    margin: auto;
-}
-#contact>div{
+    margin: 2% 0% 2% 0%;  
     background-color: white;
-    padding: 2%%;
+    padding: 1%;
     border: 1px solid rgba(128, 128, 128, 0.67) ;
-    width: 60%;
+    width: 30%;
+    border-radius: 15px;
 }
 main form{
     margin: 10px 0;
@@ -180,23 +183,57 @@ main form{
     flex-flow: wrap column;
 }
 main input{
+    background-color: rgba(128, 128, 128, 0.363);
     margin: 2px;
     padding: 1%;
     border: 0;
+    border-radius: 5px;
+
 }
 main form  input[type=text]{
-    width: 30%;
+    width: 50%;
 }
 main form  input[type=tel]{
-    width: 30%;
+    width: 50%;
 }
 main form  input[type=textarea]{
-    width: 50%;
-    padding-bottom: 3%;
+    width: 60%;
+    padding-bottom: 7%;
 }
 main form input[type=submit]{
-    width: 10%;
-    
+    width: 15%;
+    background-color: rgb(123, 200, 245);
+}
+#fon_cont_3>h2{
+    color: rgb(123, 200, 245);
+}
+#fon_cont_3>h3{
+    color: whitesmoke;
+}
+#fon_cont_3{
+    background-image: url(./../IMAGENES/sl-servicios.jpg);
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#fon_cont_3>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: wrap row;    
+}
+#fon_cont_3>div>article{
+    border: 1px solid black;
+    padding: 3% 1% 2% 1%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
 }
 /* servicios */
 /* nosotros */
