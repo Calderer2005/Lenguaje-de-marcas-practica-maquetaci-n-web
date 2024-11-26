@@ -163,7 +163,7 @@ footer{
 
 }
 #fon_cont_2{
-    background-image: ;
+    /*background-image: ;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,9 +206,15 @@ main form input[type=submit]{
 }
 #fon_cont_3>h2{
     color: rgb(123, 200, 245);
+    font-size: x-large;
 }
 #fon_cont_3>h3{
     color: whitesmoke;
+    font-size: xx-large;
+    margin:1% 0 3% 0;
+}
+#fon_cont_3 h4{
+    font-size: large;
 }
 #fon_cont_3{
     background-image: url(./../IMAGENES/sl-servicios.jpg);
@@ -222,20 +228,38 @@ main form input[type=submit]{
 #fon_cont_3>div{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-flow: wrap row;    
 }
 #fon_cont_3>div>article{
-    border: 1px solid black;
-    padding: 3% 1% 2% 1%;
-    margin: 1%;
+    border: 0;
+    width: 25vw;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: whitesmoke;
+    margin: 10px;
 }
+#fon_cont_3>div>article>p{
+    margin-top: 1%;
+}
+#cont_4{
+    background-color:rgb(123, 200, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+#cont_4>a{
+    color: whitesmoke;
+    font-size: xx-large;
+    text-decoration: none;
+}
+/* Inicio */
+
 /* servicios */
 /* nosotros */
 /* proyectos */
-/* Inicio */
+
