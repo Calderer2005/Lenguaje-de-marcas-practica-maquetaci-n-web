@@ -261,5 +261,47 @@ main form input[type=submit]{
 
 /* servicios */
 /* nosotros */
+#Nstr_background{
+    background-image: url(./../IMAGENES/Nosotros/Nostros_sct_1.jpg);
+    background-size: cover ;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    color: whitesmoke;
+}
+#Nstr_background>h2{
+    font-size: 2rem;
+}
+#Nstr_background>h3{
+    font-size: 4rem;
+}
+#Nstr_info{
+    width: 90%;
+    margin: 0 auto;
+
+}
+#Nstr_info>div{
+    display: flex;
+    flex-flow: column wrap;
+}
+#Nstr_info>div>div{
+    display: flex;
+    flex-direction: row;
+}
+#Nstr_info h2{
+    margin: 2% 0 1% 0;
+    font-size: 2rem;
+    color: rgba(23, 181, 230, 255);
+}
+#Nstr_info p{
+    margin: 1% 0 1% 0 ;
+    width: 50%;
+    font-size: large;
+}
+.Nstr_info_image{
+    width:100%;
+}
 /* proyectos */
 
