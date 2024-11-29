@@ -258,7 +258,89 @@ main form input[type=submit]{
     text-decoration: none;
 }
 /* Inicio */
+#sct_ini1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+#sct_ini1>h2{
+    font-size: 3rem;
+    margin: 2% 0 1% 0;
+}
+#sct_ini1>ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap; 
+}
+#sct_ini1_ul1>li{
+    display: flex;
+    flex-flow: row wrap;
+    width: 13%;
+    justify-content:space-around;
+}
+#sct_ini1_ul1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#sct_ini1_ul1>li>a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.945);
+    font-size: large;
+    margin-bottom: 15%;
+}
+#sct_ini1_ul2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#sct_ini1_ul2>li{
+    height: 320px;
+}
+#sct_ini1>a{
+    background-color: rgba(128, 128, 128, 0.945);
+    font-size: x-large;
+    color: whitesmoke;
+    text-decoration: none;
+    width: 1440px;
+    text-align: center;
+    padding: 2% 0;
 
+}
+#sct_ini2{
+    display: flex;
+    flex-flow: wrap row-reverse ;
+    align-items: center;
+    justify-content: space-around ;
+    width: 80%;
+    margin: auto;
+    
+}
+#sct_ini2>div{
+    margin-top: 5%;
+}
+#sct_ini2>div>img{
+    width: 28vw;
+}
+#sct_ini2>div>h2{
+    font-size: 1rem;
+}
+#sct_ini2>div>h3{
+    font-size: 2.5rem;
+    margin: 1% 0 4% 0;
+}
+#sct_ini2>div>a{
+    text-decoration: none;
+    background-color:rgba(23, 181, 230, 255);
+    color: white;
+    font-size: x-large;
+    padding: 1% 2%;
+}
 /* servicios */
 /* nosotros */
 #Nstr_background{
