@@ -278,11 +278,12 @@ main form input[type=submit]{
     font-size: 4rem;
 }
 #Nstr_info{
-    width: 90%;
-    margin: 0 auto;
-
+    background-color: whitesmoke ;
+    background-size: cover;
 }
 #Nstr_info>div{
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-flow: column wrap;
 }
@@ -297,11 +298,76 @@ main form input[type=submit]{
 }
 #Nstr_info p{
     margin: 1% 0 1% 0 ;
-    width: 50%;
+    width: 90%;
     font-size: large;
 }
 .Nstr_info_image{
     width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
+#sct_nstr_3{
+    width: 90%;
+    margin: auto;
+}
+#sct_nstr_3>ul{
+    margin-top: 3%;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.sct_nstr_3_img{
+    width: 20vw;
+}
+#sct_nstr_3>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+#q_f>div{
+    width: 30vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    align-items: center;
+}
+#q_f>div>h2{
+    font-size: 3rem;
+    text-align: center;
+}
+#q_f{
+    width: 60vw;
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+#q_f>ul{
+    width: 30vw;
+    list-style:upper-roman;
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 3%;
+    margin-top: 2vw;
+}
+#q_f>ul>li{
+    margin-bottom: 3%;
+}
+#q_f>ul>li>a{
+    text-decoration: 0;
+    color: black;
+}
+#q_f>div>a{
+    text-decoration: none;
+    color: white;
+    background-color:rgba(23, 181, 230, 255);
+    padding: 1% 2%;
+    margin: 30%;
+    font-size: 2rem;
+    width: 31%;
+}
+
 /* proyectos */
 
