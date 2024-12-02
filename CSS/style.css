@@ -482,5 +482,46 @@ main form input[type=submit]{
     text-align: center;
     color:rgba(128, 128, 128,0.5);
 }
-
+#procesos{
+    background-color: rgba(57, 57, 57, 0.209);   
+    text-align: center;
+}
+#procesos>h2{
+    font-size: 3rem;
+    color: rgb(57, 57, 57);
+    border-bottom: 1px solid rgb(111, 111, 111);
+}
+#procesos>div{
+ 
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+#procesos>div>p{
+    font-size: large;
+    margin: 0 2% 2% 2%;
+}
+#prl{
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    
+}
+#prl>h2{
+    text-align:end;
+    margin-right: 1%;
+    font-size: xx-large;
+}
+#prl>div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#prl>div>p{
+    width: 50vw;
+    text-align: center;
+    font-size: larger;
+}
 /* servicios */
