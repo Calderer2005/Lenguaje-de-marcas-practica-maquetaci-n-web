@@ -350,7 +350,6 @@ main form input[type=submit]{
     list-style: none;
     display: flex;
 }
-
 /* nosotros */
 #Nstr_background{
     background-image: url(./../IMAGENES/Nosotros/Nostros_sct_1.jpg);
@@ -525,3 +524,90 @@ main form input[type=submit]{
     font-size: larger;
 }
 /* servicios */
+#sct1_servicios{
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+#sct1_servicios>h2{
+    font-size: xx-large;
+    margin-bottom: 1%;
+    color: rgb(41, 41, 41);;
+}
+#sct1_servicios>div{
+    display: flex;
+    justify-content: space-between;
+}
+#sct1_servicios>div>article{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.498);;
+    width: 25%;
+    height: 20vh;
+    padding: 2% 3% 1% 3%;
+    border-radius: 15px;
+    margin-bottom: 1%;
+}
+#sct1_servicios>div>article>a{
+    text-decoration: none;
+    color: white;
+}
+#sct1_servicios>p{
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(128, 128, 128);;
+}
+#fndser{
+    background-image: url(./../IMAGENES/fondo\ edif.jpeg);
+    background-size: cover;
+    height: 70vh;
+}
+#fndser>div>h2{
+    color: rgba(245, 245, 245, 0.774);
+    font-size: 1rem;
+}
+#fndser>div>h3{
+    color: white;
+    font-size: 2rem;
+}
+#fndser>div{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+}
+#fndser>div>p{
+    color: rgba(46, 46, 46, 0.927);
+    width: 40%;
+    margin: auto;
+    margin-top: 4%;
+    font-size: 1rem;
+    background-color: white;
+    padding: 3%;
+    border-radius: 15px;
+}
+#valor{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+#valor>h2{
+    font-size: xx-large;
+    color: rgba(65, 65, 65, 0.942);
+}
+#valor>p{
+    font-size: x-large;
+    color: rgba(114, 113, 113, 0.923);
+}
+#valor>a{
+    text-decoration: none;
+    color:white;
+    background-color: rgba(23, 181, 230, 255);
+    padding: 1% 2%;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
