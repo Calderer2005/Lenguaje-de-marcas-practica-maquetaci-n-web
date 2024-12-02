@@ -307,7 +307,7 @@ main form input[type=submit]{
     font-size: x-large;
     color: whitesmoke;
     text-decoration: none;
-    width: 1440px;
+    width: 100%;
     text-align: center;
     padding: 2% 0;
 
@@ -327,10 +327,10 @@ main form input[type=submit]{
 #sct_ini2>div>img{
     width: 28vw;
 }
-#sct_ini2>div>h2{
+.h2{
     font-size: 1rem;
 }
-#sct_ini2>div>h3{
+.h3{
     font-size: 2.5rem;
     margin: 1% 0 4% 0;
 }
@@ -341,7 +341,16 @@ main form input[type=submit]{
     font-size: x-large;
     padding: 1% 2%;
 }
-/* servicios */
+#CLIENTES{
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+}
+#CLIENTES>ul{
+    list-style: none;
+    display: flex;
+}
+
 /* nosotros */
 #Nstr_background{
     background-image: url(./../IMAGENES/Nosotros/Nostros_sct_1.jpg);
@@ -450,6 +459,28 @@ main form input[type=submit]{
     font-size: 2rem;
     width: 31%;
 }
-
 /* proyectos */
+#obras{
+    width:90%;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-flow: wrap column;
+}
+#obras>article{
+    border-bottom: 1px solid  rgba(128, 128, 128,0.2);
+    display: flex;
+    flex-flow: wrap row;
+    margin-bottom: 2%;justify-content: space-between;
+}
+#obras>article>div>a{
+    text-decoration: none;
+    color: rgba(128, 128, 128);
+    font-size: 2.6rem;
+}
+#obras>article>div{
+    text-align: center;
+    color:rgba(128, 128, 128,0.5);
+}
 
+/* servicios */
